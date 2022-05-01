@@ -53,3 +53,15 @@ def hard():
 
     except ValueError:
         print("!!please enter a number")
+
+
+def pre_game():
+    print("How would you like to play?")
+    print("press 1-EASY MODE\n press 2- HARD MODE")
+    operation=input(">")
+    if operation =="1":
+        easy()
+    elif operation =="2":
+        hard()
+
+pre_game()
